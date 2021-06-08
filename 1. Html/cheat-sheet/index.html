@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- The Whole HTML File Goes Inside -->
+<html>
+  <!-- Contains Metadata About the Page -->
+  <head>
+    <!-- Display the title of the page in the browser tab -->
+    <title>HTML Cheat Sheet</title>
+  </head>
+
+  <!-- Body of the Page -->
+  <body>
+    <!-- Division -->
+    <div>I'm in a div</div>
+
+    <!-- Span -->
+    <span>I'm in a span</span>
+
+    <!-- Paragraph Tag -->
+    <p>I'm in a paragraph</p>
+
+    <!-- Button -->
+    <button>I'm a button</button>
+
+    <!-- Unordered List with List Items -->
+    <ul>
+      <li>Unordered List Item #1</li>
+      <li>Unordered List Item #2</li>
+    </ul>
+
+    <!-- Ordered List with List Items -->
+    <ol>
+      <li>Ordered List Item #1</li>
+      <li>Ordered List Item #2</li>
+    </ol>
+
+    <!-- Anchor (link) Tag -->
+    <a href="/">I'm a link to somewhere</a>
+    <a href="https://www.google.com" target="_blank">
+      I'm a link to google opening in a new tab
+    </a>
+
+    <!-- Image -->
+    <img src="lake.jpg" alt="dock extending into lake" />
+
+    <!-- 
+        Input Fields 
+    -->
+
+    <input type="text" placeholder="I'm a text input" name="something" />
+    <input type="email" placeholder="I'm an email input" name="email" />
+    <input type="number" placeholder="I'm a number input" name="number" />
+    <input type="password" placeholder="I'm a password input" name="password" />
+
+    <!-- Label for Input -->
+    <label for="city">Enter City</label>
+    <input id="city" type="text" />
+
+    <!-- Checkbox -->
+    <input type="checkbox" name="am-checked" />
+
+    <!-- Radio Buttons -->
+    <input type="radio" id="male" name="gender" value="male" />
+    <label for="male">Male</label><br />
+    <input type="radio" id="female" name="gender" value="female" />
+    <label for="female">Female</label><br />
+    <input type="radio" id="other" name="gender" value="other" />
+    <label for="other">Other</label>
+
+    <!-- Dropdown -->
+    <select name="cars">
+      <!-- Each Option in the Dropdown -->
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <!-- Form Tag, Inputs go Inside -->
+    <form action="/submit" method="POST">
+      <input type="text" name="city" />
+      <button type="submit">Click here to submit form</button>
+    </form>
+
+    <!-- 
+        HTML Table 
+    -->
+
+    <table>
+      <!-- Table Head -->
+      <thead>
+        <!-- Table Row -->
+        <tr>
+          <!-- Table Header Cells -->
+          <th>City</th>
+          <th>State</th>
+        </tr>
+      </thead>
+      <!-- Table Body -->
+      <tbody>
+        <tr>
+          <!-- Table Data Cells -->
+          <td>Reston</td>
+          <td>Virginia</td>
+        </tr>
+        <tr>
+          <td>Metuchen</td>
+          <td>New Jersey</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- 
+        Semantic Tags (divs to help out accessibility tools)
+    -->
+
+    <!-- Section or Page Header -->
+    <header></header>
+
+    <!-- Main Content of the Page -->
+    <main></main>
+
+    <!-- Footer of the Page -->
+    <footer></footer>
+
+    <!-- Breaks Page into Logical Sections -->
+    <section></section>
+
+    <!-- Something to the Side, Not Main Content -->
+    <aside></aside>
+
+    <!-- Page Navigation Links Goes in Here -->
+    <nav></nav>
+
+    <!-- A Block of Text Worth Reading -->
+    <article></article>
+
+    <!-- 
+        Header Tags 
+    -->
+
+    <!-- Should have 1 on each page saying what's in it -->
+    <h1>H1 Tag</h1>
+
+    <!-- One goes at the beginning of each page section -->
+    <h2>H2 Tag</h2>
+
+    <!-- One goes at the beginning of each page section subsection -->
+    <h3>H3 Tag</h3>
+
+    <!-- One goes at the beginning of each page section subsection subsection -->
+    <h4>H4 Tag</h4>
+
+    <!-- yadda yadda yadda -->
+    <h5>H5 Tag</h5>
+    <h6>H6 Tag</h6>
+  </body>
+</html>
