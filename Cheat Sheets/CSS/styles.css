@@ -1,0 +1,16 @@
+/* this is a comment in css */
+
+/* target html element by element name */
+div {
+  ...something;
+}
+
+/* target elements with this class name */
+.class-name {
+  ...something;
+}
+
+/* target single element by id */
+#id-name {
+  ...something;
+}
