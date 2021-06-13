@@ -1,0 +1,6 @@
+In order to commit your changes to github 
+run these commands
+
+git add -A
+git commit -m "message saying what has changed"
+git push origin name-of-current-branch 

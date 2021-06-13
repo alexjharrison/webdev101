@@ -1,0 +1,41 @@
+Change Directory
+cd
+
+cd ./some-folder
+goes into folder named some-folder
+
+cd ../
+goes up a folder
+
+cd ../../
+goes up two folders
+
+---
+
+Create file
+touch
+
+
+touch index.js
+creates index.js file in the current folder
+
+---
+
+Create Directory
+mkdir
+
+mkdir folder-to-delete
+
+--- 
+
+Remove files
+rm
+
+rm file-to-delete.txt
+deletes file-to-delete.txt from the current folder
+
+rm *
+remove all files in the current folder
+
+rm -rf folder-with-stuff
+remove folder-with-stuff and all contents inside
